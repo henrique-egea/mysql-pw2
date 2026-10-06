@@ -1,0 +1,20 @@
+{
+  "name": "funcionarios-pw2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema web para cadastro e gerenciamento de funcionários.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check src/validation.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0"
+  }
+}
